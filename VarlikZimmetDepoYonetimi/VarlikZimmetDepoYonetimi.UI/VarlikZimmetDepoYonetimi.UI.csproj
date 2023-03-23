@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{64AFA52E-8A36-484F-BE1C-E40184CCBDBA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VarlikZimmetDepoYonetimi.UI</RootNamespace>
+    <AssemblyName>VarlikZimmetDepoYonetimi.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GirisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GirisEkrani.Designer.cs">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Varlik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varlik.Designer.cs">
+      <DependentUpon>Varlik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VarlikListeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VarlikListeleme.Designer.cs">
+      <DependentUpon>VarlikListeleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VarlikTuketimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VarlikTuketimi.Designer.cs">
+      <DependentUpon>VarlikTuketimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZimmetAtama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZimmetAtama.Designer.cs">
+      <DependentUpon>ZimmetAtama.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GirisEkrani.resx">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varlik.resx">
+      <DependentUpon>Varlik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VarlikListeleme.resx">
+      <DependentUpon>VarlikListeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VarlikTuketimi.resx">
+      <DependentUpon>VarlikTuketimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZimmetAtama.resx">
+      <DependentUpon>ZimmetAtama.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headphones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\megaphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtering.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ultia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand-screen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xls-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VarlikZimmetDepoYonetimi.DAL\VarlikZimmetDepoYonetimi.DAL.csproj">
+      <Project>{0efdd830-8b02-4d29-aa85-7c0b16a976bb}</Project>
+      <Name>VarlikZimmetDepoYonetimi.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VarlikZimmetDepoYonetimi.DTO\VarlikZimmetDepoYonetimi.DTO.csproj">
+      <Project>{b3299fb2-4567-48a7-930b-c5edda60aeae}</Project>
+      <Name>VarlikZimmetDepoYonetimi.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VarlikZimmetDepoYonetimi.MyProvider\VarlikZimmetDepoYonetimi.MyProvider.csproj">
+      <Project>{defd3e4a-3191-408e-bd33-aa744ccc1558}</Project>
+      <Name>VarlikZimmetDepoYonetimi.MyProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

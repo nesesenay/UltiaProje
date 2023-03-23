@@ -1,0 +1,11 @@
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\bin\Debug\VarlikZimmetDepoYonetimi.DAL.dll
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\bin\Debug\VarlikZimmetDepoYonetimi.DAL.pdb
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\obj\Debug\VarlikZimmetDepoYonetimi.DAL.csproj.AssemblyReference.cache
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\obj\Debug\VarlikZimmetDepoYonetimi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\obj\Debug\VarlikZimmetDepoYonetimi.DAL.dll
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\obj\Debug\VarlikZimmetDepoYonetimi.DAL.pdb
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\bin\Debug\VarlikZimmetDepoYonetimi.DTO.dll
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\bin\Debug\VarlikZimmetDepoYonetimi.MyProvider.dll
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\bin\Debug\VarlikZimmetDepoYonetimi.DTO.pdb
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\bin\Debug\VarlikZimmetDepoYonetimi.MyProvider.pdb
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.DAL\obj\Debug\VarlikZimmetDepoYonetimi.DAL.csproj.CopyComplete

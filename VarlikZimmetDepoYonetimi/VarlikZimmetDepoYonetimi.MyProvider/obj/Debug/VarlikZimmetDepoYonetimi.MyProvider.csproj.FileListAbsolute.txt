@@ -1,0 +1,6 @@
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.MyProvider\bin\Debug\VarlikZimmetDepoYonetimi.MyProvider.dll
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.MyProvider\bin\Debug\VarlikZimmetDepoYonetimi.MyProvider.pdb
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.MyProvider\obj\Debug\VarlikZimmetDepoYonetimi.MyProvider.csproj.AssemblyReference.cache
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.MyProvider\obj\Debug\VarlikZimmetDepoYonetimi.MyProvider.csproj.CoreCompileInputs.cache
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.MyProvider\obj\Debug\VarlikZimmetDepoYonetimi.MyProvider.dll
+C:\Users\neses\Desktop\VarlikZimmetDepoYonetimi\VarlikZimmetDepoYonetimi.MyProvider\obj\Debug\VarlikZimmetDepoYonetimi.MyProvider.pdb
